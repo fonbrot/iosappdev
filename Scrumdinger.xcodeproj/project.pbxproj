@@ -29,6 +29,7 @@
 		005FE56C28D8B40A00311C4F /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005FE56B28D8B40A00311C4F /* ScrumsView.swift */; };
 		005FE56E28D8BA4E00311C4F /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005FE56D28D8BA4E00311C4F /* DetailView.swift */; };
 		005FE57028D900F600311C4F /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005FE56F28D900F600311C4F /* DetailEditView.swift */; };
+		00D50AA728DBA120008D6D72 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D50AA628DBA120008D6D72 /* History.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +75,7 @@
 		005FE56B28D8B40A00311C4F /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
 		005FE56D28D8BA4E00311C4F /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		005FE56F28D900F600311C4F /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
+		00D50AA628DBA120008D6D72 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,6 +186,7 @@
 				005FE56328D867F900311C4F /* Theme.swift */,
 				0007879928DA505200817BE4 /* ScrumTimer.swift */,
 				0007879D28DA571500817BE4 /* AVPlayer+Ding.swift */,
+				00D50AA628DBA120008D6D72 /* History.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -319,6 +322,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00D50AA728DBA120008D6D72 /* History.swift in Sources */,
 				0007879428DA351C00817BE4 /* ThemePicker.swift in Sources */,
 				0007879828DA4F6A00817BE4 /* ScrumProgressViewStyle.swift in Sources */,
 				0007879C28DA537100817BE4 /* MeetingFooterView.swift in Sources */,
